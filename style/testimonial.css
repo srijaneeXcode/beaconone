@@ -1,0 +1,134 @@
+.testimonial-section {
+  padding: 120px 0;
+}
+
+
+.test-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  font-size: 14px;
+  color: #717175;
+  margin-bottom: 25px;
+}
+
+.test-heading > .title2 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  color: #18212D;
+  margin-bottom: 70px;
+}
+
+
+.testSwiper {
+  padding: 40px 0;
+
+}
+.testimonialSwiper .swiper-slide {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+
+.swiper-slide-active .profile-img {
+  transform: scale(1.6);
+}
+
+.swiper-slide-prev .profile-img,
+.swiper-slide-next .profile-img {
+  opacity: 0.7;
+}
+
+/* Arrows */
+.custom-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+.next-filled {
+  background: #AA6AAA;
+}
+
+.next-filled::after {
+  color: white !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+  color: #AA6AAA;
+}
+
+/* Text */
+.testimonial-content {
+  margin-top: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#testdesc {
+  color: #717175;
+  font-size: 16px;
+}
+
+#testname {
+  margin-top: 14px;
+  color: #AA6AAA;
+  font-weight: 600;
+}
+#testrole {
+    font-size: 12px;
+  color: #666666;
+}
+
+
+.swiper-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.test-slider-wrapper {
+  position: relative;
+  
+}
+
+.swiper-button-prev {
+  left: 5px;
+}
+
+.swiper-button-next {
+  right: 5px;
+}
+@media (max-width: 991.98px){
+  .test-slider-wrapper {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 768px) {
+  .swiper-slide-active .profile-img {
+    transform: scale(1.25);
+  }
+}
+.swiper-button-next svg, .swiper-button-prev svg {
+  display:none;
+  
+}@media screen and (max-width:475px){
+    #testdesc {
+        color: #717175;
+        font-size: 9px;
+    }
+}
