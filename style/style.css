@@ -90,11 +90,12 @@ header{
 
 /* Paragraph */
 .bannersub-txt {
-  max-width: 650px;
+  max-width: 814px;
   margin: 0 auto;
   color: #717175;
   line-height: 1.7;
   margin-bottom:30px;
+
 }
 .banner-btn{
     padding:20px 24px;
@@ -159,9 +160,30 @@ header{
     }
     /*Banner Section*/
     .title1{
-        font-size:18px;
+        font-size:37px;
     }
-    .hero-content{
-        font-size:12px;
+    .bannersub-txt{
+        font-size:14px;
+    }
+}
+@media screen and (max-width:576px){
+    .title1{
+        font-size:30px;
+    }
+    .bannersub-txt{
+        font-size:10px;
+    }
+}
+@media screen and (max-width:425px){
+    .title1{
+        font-size:25px;
+    }
+}
+@media screen and (max-width:375px){
+    .title1{
+        font-size:19px;
+    }
+    .bannersub-txt{
+        font-size:8px;
     }
 }
