@@ -41,6 +41,10 @@
     background:var(--btn-color);
     color:#FFFFFF;
 }
+.primary-btn:hover{
+     background-color:#4F4895;
+    color: #fff;
+}
 @media screen and (max-width:992px){
     .property-image2{
         max-width:none;
