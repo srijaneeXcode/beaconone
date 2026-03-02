@@ -3,6 +3,7 @@
 }
 .propert-content{
     max-width:513px;
+    margin: 0 auto;
 }
 .propert-content > .title2{
     font-size:50px;
@@ -13,6 +14,7 @@
 }
 .property-image{
     max-width:24.74vw;
+    margin: 0 auto;
 }
 .property-image > img{
     width:100%;
